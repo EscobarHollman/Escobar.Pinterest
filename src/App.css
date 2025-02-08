@@ -698,6 +698,9 @@ html, body {
     .uno{
     display: none
   }
+  .downarrow{
+    visibility: hidden
+}
 }
 
 
@@ -705,6 +708,9 @@ html, body {
   .column {
     max-width: calc(16.666% - 10px); 
   }
+   .downarrow{
+    visibility: hidden
+}
 }
 
 .column {
@@ -727,6 +733,9 @@ html, body {
   .uno{
     display: none
   }
+   .downarrow{
+    visibility: hidden
+}
   .personalinfo {
     padding: 10px;
   }
