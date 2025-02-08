@@ -667,6 +667,9 @@ html, body {
   .uploaddetailsdiv {
     width: 95%;
   }
+  .uno{
+    display: none
+  }
 }
 
 
@@ -682,12 +685,18 @@ html, body {
   .contPrim {
     width: 45%;
   }
+    .uno{
+    display: none
+  }
 }
 
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
   .column {
     max-width: calc(25% - 10px); 
+  }
+    .uno{
+    display: none
   }
 }
 
@@ -702,7 +711,9 @@ html, body {
   transition: max-width 0.3s ease;
   margin: 5px;
 }
-
+  .uno{
+    display: none
+  }
 .imagediv {
   break-inside: avoid;
   margin-bottom: 15px;
@@ -713,7 +724,9 @@ html, body {
     right: 5px;
     width: 250px;
   }
-
+  .uno{
+    display: none
+  }
   .personalinfo {
     padding: 10px;
   }
